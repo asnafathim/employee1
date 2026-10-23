@@ -1,0 +1,70 @@
+/* ===== App-level Styles ===== */
+
+/* Page heading styles */
+.page-heading {
+  color: #1a56db;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+/* Card styling for the form */
+.form-card {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+/* Table styling */
+.table-container {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.table thead {
+  background-color: #1a56db;
+  color: #ffffff;
+}
+
+.table thead th {
+  padding: 14px 16px;
+  font-weight: 600;
+  border: none;
+}
+
+.table tbody td {
+  padding: 12px 16px;
+  vertical-align: middle;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f0f6ff;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #dbeafe;
+}
+
+/* Submit button */
+.btn-submit {
+  background-color: #1a56db;
+  border: none;
+  padding: 10px 32px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+  background-color: #1344b0;
+}
+
+/* Loading spinner area */
+.loading-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 0;
+}
